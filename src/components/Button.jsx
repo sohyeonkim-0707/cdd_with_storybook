@@ -1,15 +1,13 @@
-import React from "react"
-
+import React from "react";
 
 const Button = () => {
-    const [count, setCount] = React.useState(0)
+  const [count, setCount] = React.useState(0);
 
-return(
+  return (
     <button onClick={() => setCount((count) => count + 1)}>
-    count is {count}
+      count is {count}
     </button>
-
-    );
+  );
 };
 
 export default Button;
